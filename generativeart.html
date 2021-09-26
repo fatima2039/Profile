@@ -1,0 +1,229 @@
+<!doctype html>
+<html>
+<head>
+<!-- Basic Page Needs
+    ================================================== -->
+<meta charset="utf-8">
+<!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Geometric Tornado</title>
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- Favicons
+    ================================================== -->
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+
+<!-- Slider
+    ================================================== -->
+<link href="css/owl.carousel.css" rel="stylesheet" media="screen">
+<link href="css/owl.theme.css" rel="stylesheet" media="screen">
+<link href="css/animate.css" rel="stylesheet" media="screen">
+
+<!-- Stylesheet
+    ================================================== -->
+<link rel="stylesheet" type="text/css"  href="style.css">
+<link href='https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700|Montserrat:100,200,300,300i,400,500,600,700,800,900' rel='stylesheet' type='text/css'>
+
+<style type="text/css">
+  .image_row: after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .col_img{
+    float: left;
+    width: 33%;
+    padding:20px;
+  }
+
+  @media screen and (max-width:  600px){
+    .col_img{
+      width: 100%;
+    }
+
+  }
+
+  .weblink{
+    margin: 0 auto;
+    padding-left: 0;
+    font-size: 10px;
+    color: #fff;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+    background: #fe5339;
+    padding: 4px;
+    background: #fe5339;
+    display: inline-block;
+    position: relative;
+    padding: 4px 6px;
+    border-radius: 4px;
+  }
+
+</style>
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body class="page">
+
+<!-- Navigation
+    ==========================================-->
+<nav id="top-menu" class="navbar navbar-default navbar-fixed-top">
+  <div class="container"> 
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <a class="navbar-brand" href="index.html"><img src="img/logo-top.png" class="img-responsive"><span>FN</span></a> </div>
+    
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> 
+      
+      <!--nav icon--> 
+      <a id="nav-icon"> <span></span> <span></span> <span></span> </a> 
+      <!--nav icon end-->
+      
+      <ul id="nav-top" class="nav navbar-nav navbar-right">
+        <li><a href="index.html" class="page-scroll">Home</a></li>
+        <li><a href="portfolio.html" class="page-scroll">Projects</a></li>
+        <li><a href="contact.html" class="page-scroll">Contact</a></li>
+      </ul> 
+    </div>
+    <!-- /.navbar-collapse --> 
+  </div>
+  <!-- /.container-fluid --> 
+</nav>
+
+<!-- banner Page
+    ==========================================-->
+<div id="page-banner" style="background-image: url(img/p-1.jpg);">
+  <div class="content  wow fdeInUp">
+    <div class="container "> 
+      
+      <!--breadcrumb--
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item active">Wordpress</li>
+        </ol>
+        --/breadcrumb-->
+      <h1>Interactive Art: Geometric Tornado</h1>
+      <!--  <header class="entry-header"><a href="#"> </a><span class="date-article">10 days ago</span> in <span class="byline"><span class="author vcard"><a href="#">WORDPRESS</a> ,<a href="#"> BLOG</a></span></span> </header>-->
+      <ul class="tag-head">
+        <li><a>Processing</a></li>
+        <li><a>Java OOP</a></li>
+        <li><a>Interactive Art</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!--page body-->
+
+<div id="page-body">
+  <div class="container">
+    <div class="row  wow fdeInUp"> 
+      <!--blog posts container-->
+      <div class="col-md-12 page-block "   >
+        <h3><strong>Overview: </strong></h3>
+        <p>For another production assignment, I created a generative art piece using Processing. The project involved creating a simplistic art piece while implementing Object-oriented programming principles. My artwork includes a spiral, sort of Fibonacci spiral, using rectangles that have a random stroke color with fixed opacity and no fill. Learn more about it on my <a href="https://intro.nyuadim.com/2021/09/18/quite-geometric-tornado/" class="weblink" target="_blank">intro to IM blog</a></p>
+        <h3><strong>The Approach:</strong></h3>
+        <p>The design may seem like something very complex and difficult to implement but it actually is very simple. The only difficulty I encountered was when trying to implement it using OOP. Initially, it just would not work as intended. So, I started off by writing code in one piece and then sectioning it out. After that, I made the class and defined different functions and then played around with values to find some designs that I really like. </p>
+        <p>Additionally, this time I worked on adding interactivity within the art. For this design, the user can choose to continue the spiral in the opposite direction once it has already ended. As its layout and final outcome is dependent on user liking, once the anti-clockwise spiral has completed, user can hold the mouse as long as they want until they achieve their final design.I would happily say that this project has by far been the most fun. Even after deciding on a design initially, I tweaked the variables several times and found myself staring at amazing generative art on screen for an hour.</p>
+        <h3><strong>The Result:</strong></h3>
+        <div class="image_row">
+          <div class="col_img">
+            <figure><img src="projects/images/tornado1.png" class="img-responsive"></figure>
+          </div> 
+          <div class="col_img">
+            <iframe width="560" height="375" src="https://www.youtube.com/embed/xwOMIo9JGMM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="col_img">
+            <figure><img src="projects/images/tornado3.png" class="img-responsive"></figure>
+          </div>
+        </div>
+        
+      </div>
+      <!--blog posts container-->
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</div>
+<!--/page body-->
+
+<div class="page-share-block">
+  <div class="container">
+    <div class="row">
+      <h4>Share on :</h4>
+      
+      <!--page-share-->
+      <ul class="page-share">
+        <li><a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://www.google.com"><i class="fa fa-google-plus"></i></a></li>
+        <li><a href="https://www.pinterest.com"><i class="fa fa-pinterest"></i></a></li>
+        <li><a href="https://www.dribble.com"><i class="fa fa-dribbble"></i></a></li>
+        <li><a href="https://www.linkedin.com"><i class="fa fa-linkedin"></i></a></li>
+      </ul>
+      
+      <!--page-share--> 
+      
+    </div>
+  </div>
+</div>
+<footer id="bottom-footer">
+  <div class="container">
+    <div class="row wow fadeInUp">
+      <div class="col-md-4 col-sm-4 col-xs-12"> 
+        <!--copyright-->
+        <p class="copyright">© 2021 Fatima Nadeem</p>
+        <!--/copyright--> 
+      </div>
+      <!--bottom nav-->
+      <div class="col-md-4 col-sm-4 col-xs-12">
+        <nav class="bottom-nav">
+          <ul class="social-link">
+          <li><a href="https://www.facebook.com/fn2039"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="https://www.instagram.com/_fatima.nadeem/"><i class="fa fa-instagram"></i></a></li>
+        </ul>
+        </nav>
+      </div>
+  </div>
+</div>
+</footer>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script type="text/javascript" src="js/bootstrap.js"></script> 
+<script type="text/javascript" src="js/SmoothScroll.js"></script> 
+<script type="text/javascript" src="js/jquery.isotope.js"></script> 
+<script src="js/owl.carousel.js"></script> 
+<script src="js/jquery.waypoints.min.js"></script> 
+<!-- Javascripts
+    ================================================== --> 
+<script type="text/javascript" src="js/main.js"></script> 
+<script src="js/wow.min.js"></script> 
+<script>
+new WOW().init();
+</script> 
+<script>
+    jQuery(document).ready(function( $ ) {
+        $('.counter').counterUp({
+            delay: 10,
+            time: 1000
+        });
+    });
+</script>
+</body>
+</html>
